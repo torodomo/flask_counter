@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TMNT</title>
+    <!-- linking a css style sheet -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='css/style.css') }}">
+    <!-- linking a javascript file -->
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+</head>
+
+<body>
+    <div id=warpper>
+        <h1>You found us!!</h1>
+        <!-- linking an image -->
+        <img src="{{ url_for('static', filename='images/tmnt.png') }}">
+    </div>
+</body>
+
+</html>
